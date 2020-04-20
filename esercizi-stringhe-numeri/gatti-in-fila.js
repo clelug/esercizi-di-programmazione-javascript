@@ -1,3 +1,11 @@
+var gatti = 44
+var gattifila = 6
+var gattinoni =  Math.ceil(gatti/gattifila)
+var resto = (gattinoni*gattifila-gatti);
+console.log(resto);
+console.log(gattinoni);
+
+
 /*
   Gatti in fila
   Scrivi un programma che dato:
